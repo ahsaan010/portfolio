@@ -7,15 +7,7 @@ import './projects.css';
 
 // Project data
 const projects = [
- {
-    title: 'Cricket Quiz',
-    description:
-      '5 categories of cricket quizzes. Includes a timer and score tracking with leaderboard functionality.',
-    url: 'https://github.com/ahsaanquddoos970-ai/Cricket-Quiz',
-    website: 'https://cricket-quiz-eta.vercel.app/',
-    image: '/cricket_quiz.png',
-    tags: ['React', 'TailwindCSS', 'Framer-motion'],
-  },
+ 
   {
     title: 'Tomato App',
     description:
@@ -25,15 +17,34 @@ const projects = [
     image: '/tomato.png',
     tags: ['React','javaScript', 'HTML','CSS'],
   },
-     {
-    title: 'Tech Zone',
+  {
+  title: 'LinkedIn Web-App',
+  description:
+    'A full-stack MERN LinkedIn clone with profiles, image posts, real-time likes and comments, connections, and notifications.',
+  url: 'https://github.com/ahsaan010/LinkedIn',
+  website: 'https://linkedin-three-sigma.vercel.app/login',
+  image: '/linkedin.png',
+  tags: [
+    'React',
+    'TailwindCSS',
+    'Node.js',
+    'Express.js',
+    'MongoDB',
+    'Mongoose',
+    'Socket.IO',
+    'JWT',
+  ],
+},
+  {
+    title: 'Cricket Quiz',
     description:
-      'Tech Zone is a modern web app for exploring and showcasing technology products and services',
-    url: 'https://github.com/ahsaanquddoos970-ai/Tech-Zone-Project',
-    website: 'https://tech-zone-project-rgcw.vercel.app/',
-    image: '/techzone.png',
-    tags: ['React','tavaScript','HTML','CSS'],
+      '5 categories of cricket quizzes. Includes a timer and score tracking with leaderboard functionality.',
+    url: 'https://github.com/ahsaanquddoos970-ai/Cricket-Quiz',
+    website: 'https://cricket-quiz-eta.vercel.app/',
+    image: '/cricket_quiz.png',
+    tags: ['React', 'TailwindCSS', 'Framer-motion'],
   },
+   
   {
     title: 'Bistro Food Web App',
     description:
@@ -42,6 +53,15 @@ const projects = [
     website: 'https://bistro-web-tau.vercel.app/',
     image: '/bistro.png',
     tags: ['React','typeScript', 'Web Development'],
+  },
+    {
+    title: 'Tech Zone',
+    description:
+      'Tech Zone is a modern web app for exploring and showcasing technology products and services',
+    url: 'https://github.com/ahsaanquddoos970-ai/Tech-Zone-Project',
+    website: 'https://tech-zone-project-rgcw.vercel.app/',
+    image: '/techzone.png',
+    tags: ['React','tavaScript','HTML','CSS'],
   },
   
   
